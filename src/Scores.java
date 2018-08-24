@@ -12,10 +12,10 @@ public class Scores
 	public static void main(String args[])
 	{
 		Scores s = new Scores();
-		String names[] = new String[4];
-		int scores[][] = new int[4][5];
+		String names[] = new String[10];
+		int scores[][] = new int[10][5];
 		Scanner scan = new Scanner(System.in);
-		for(int i=0; i<4; i++)
+		for(int i=0; i<10; i++)
 		{
 			System.out.print("Enter the name of the student:\n");
 			names[i] = scan.next();
@@ -28,7 +28,7 @@ public class Scores
 			}
 		}
 		scan.close();
-		for(int i=0; i<4; i++)
+		for(int i=0; i<10; i++)
 		{
 			System.out.println("Average quiz score of " + names[i] + "is " + s.computeAverage(scores[i]));
 		}
