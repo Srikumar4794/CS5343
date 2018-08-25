@@ -34,6 +34,7 @@ public class MyFour<T>
 		System.out.println("Result of equating 4 items of obj1: " + obj1.allEquals());
 		MyFour<Integer> obj2 = new MyFour<>(10,15,20,25);
 		System.out.println("Result of equating 4 items of obj2: " + obj2.allEquals());
+		System.out.println("Befoore shifting left:" + obj2.itemsConcat());
 		obj2.shiftLeft();
 		System.out.println("After shifting left:" + obj2.itemsConcat());
 	}
