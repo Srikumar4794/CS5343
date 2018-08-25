@@ -1,5 +1,5 @@
+package Assignments;
 import java.util.Scanner;
-
 public class EvaluateTemperature {
 
 	public int convertScale(int tc)				 		//receives input in celsius.
